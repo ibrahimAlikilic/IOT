@@ -1,8 +1,3 @@
-/*********************************************************
-BSM313 Nesnelerin İnterneti ve Uygulamaları Dersi
-Prof. Dr. Cüneyt BAYILMIŞ
-Blynk 2.0 IoT Genel Uygulama | Arduino IDE Kodları
-*********************************************************/ 
 #define BLYNK_PRINT Serial 
 #include <ESP8266WiFi.h> 
 #include <BlynkSimpleEsp8266.h> 
