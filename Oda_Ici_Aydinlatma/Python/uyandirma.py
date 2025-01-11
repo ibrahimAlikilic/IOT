@@ -13,10 +13,6 @@ def play_music():
 
 @app.route('/wake')
 def wake():
-    # Uyku modundan çıkma ve monitörü açma
-    os.system("powercfg -h off")  # Hibernate devre dışı bırak
-    os.system("nircmd.exe monitor on")  # NirCmd ile monitörü aç
-
     # Müziği başlat
     play_music()
 
