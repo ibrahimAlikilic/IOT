@@ -129,7 +129,9 @@ void Hepsini_Kapat() {
 void Uyari_Isiklari(){
   for(int i=0;i<3;i++){
     Hepsini_Yak();
+    delay(1000);
     Hepsini_Kapat();
+    delay(1000);
   }
   Hepsini_Yak();
 }
